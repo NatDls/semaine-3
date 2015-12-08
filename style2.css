@@ -1,0 +1,89 @@
+/*Première application de la methode OOCSS*/
+/*-----------------------------------------*/
+
+/*les selecteurs de base--*/
+/*------------------------*/
+a
+	{
+	text-decoration: none;
+	}
+
+h1, h3 
+	{								
+	margin-bottom: 10px;
+	font-family: Tahoma;
+	font-size: 20px;
+	}								
+
+h5
+	{
+	font-family: Arial;
+	font-size: 14px;
+	margin-left: -40px;
+	}
+
+
+/*le layout---------------*/
+/*------------------------*/
+					
+.container 
+	{
+	width: 100%x;							
+	margin-left: auto;							
+	margin-right: auto;
+	background-color: #380001;
+	}								
+								
+.header 
+	{								
+	width: 100%;							
+	margin-left: auto;							
+	margin-right: auto;
+	position: fixed;
+	border-bottom: 1px solid red;
+	background-color: white;							
+	color: #660000;
+	}
+	
+	.header1
+	{
+	float: left;
+	padding: 10px;
+	}
+	
+	.header2
+	{
+	float: right;
+	padding: 10px;
+	}
+								
+.content
+	{
+	
+	}								
+
+.nav
+	{				
+	width: 30%;							
+	float: left;
+	background-color: black;
+	}								
+							
+.main
+	{	
+	width: 70%;
+	margin-left: 30%;
+	color: white;
+	font-family: Arial;
+	font-size: 12px;
+	}
+	
+.footer 
+	{
+	width: 100%;
+	Height: 40px;
+	position: absolute;
+	background-color: black;
+	color: white;							
+	text-align: center;						
+	}								
